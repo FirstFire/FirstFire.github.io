@@ -29,7 +29,7 @@
 <meta property="og:site_name" content="序言">
 <meta property="og:description" content="准备工作-1 搭建Node.js环境下载地址:Node.js官网。选左边的就好，然后一路默认安装。然后打开命令提示符，输入node -v、npm -v，出现版本号则说明Node.js环境配置成功，第一步完成。 -2 搭建git环境下载地址:git官网。下载最新版本的git，然后一路默认安装。桌面右键，打开Git Bush Here，输入git –version，出现版本号则说明 Git 环境配置成">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-06-10T00:36:25.019Z">
+<meta property="og:updated_time" content="2019-06-14T09:34:15.900Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo+github搭建我的博客">
 <meta name="twitter:description" content="准备工作-1 搭建Node.js环境下载地址:Node.js官网。选左边的就好，然后一路默认安装。然后打开命令提示符，输入node -v、npm -v，出现版本号则说明Node.js环境配置成功，第一步完成。 -2 搭建git环境下载地址:git官网。下载最新版本的git，然后一路默认安装。桌面右键，打开Git Bush Here，输入git –version，出现版本号则说明 Git 环境配置成">
@@ -269,9 +269,9 @@
 <p>-7 把博客部署到github上  </p>
 <ul>
 <li>先安装github部署插件：<code>cnpm install hexo-deployer-git --save</code>  </li>
-<li>执行命令，每次都按如下步骤部署博客:  <pre><code>hexo c
-hexo g
-hexo d  </code></pre></li>
+<li>执行命令，每次都按如下步骤部署博客:  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo c</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+</li>
 </ul>
 <hr>
 <h2 id="更换indigo主题"><a href="#更换indigo主题" class="headerlink" title="更换indigo主题"></a>更换indigo主题</h2><ul>
@@ -285,30 +285,30 @@ hexo d  </code></pre></li>
 <li>开启分类页<br><code>hexo new page categories</code>  </li>
 <li>启用主题<br>编辑站点配置文件，myblog文件夹下_config.yml<br><code>theme: indigo</code>  </li>
 </ul>
+<hr>
 <h2 id="更改配置文件"><a href="#更改配置文件" class="headerlink" title="更改配置文件"></a>更改配置文件</h2><ul>
-<li>添加配置文件  </li>
-</ul>
-<p><strong>feed配置</strong><br>    <code>feed:  
-      type: atom
-      path: atom.xml
-      limit: 0</code><br>    <strong>jsonContent配置</strong><br>    <code>jsonContent:  
-      meta: false  
-      pages: false  
-      posts:  
-        title: true  
-        date: true  
-        path: true  
-        text: true  
-        raw: false  
-        content: false  
-        slug: false  
-        updated: false  
-        link: false  
-        permalink: false  
-        categories: false  
-        tags: true</code>  </p>
-<ul>
-<li>根据需要修改_config.yml配置文件  </li>
+<li><p>添加配置文件<br>  <strong>feed配置</strong>  </p>
+  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">feed:  </span><br><span class="line">  type: atom</span><br><span class="line">  path: atom.xml</span><br><span class="line">  limit: 0</span><br></pre></td></tr></table></figure>
+
+<p>  <strong>jsonContent配置</strong>  </p>
+<pre><code>jsonContent:  
+  meta: false  
+  pages: false  
+  posts:  
+    title: true  
+    date: true  
+    path: true  
+    text: true  
+    raw: false  
+    content: false  
+    slug: false  
+    updated: false  
+    link: false  
+    permalink: false  
+    categories: false  
+    tags: true  </code></pre></li>
+<li><p>根据需要修改_config.yml配置文件  </p>
+</li>
 </ul>
 <hr>
 <h2 id="搭建博客期间遇到的问题及解决方案"><a href="#搭建博客期间遇到的问题及解决方案" class="headerlink" title="搭建博客期间遇到的问题及解决方案"></a>搭建博客期间遇到的问题及解决方案</h2><ol>
@@ -337,7 +337,7 @@ hexo d  </code></pre></li>
     <div class="content">
         
 <span class="post-time">
-    最后更新时间：<time datetime="2019-06-10T00:36:25.019Z" itemprop="dateUpdated">2019-06-10 08:36:25</time>
+    最后更新时间：<time datetime="2019-06-14T09:34:15.900Z" itemprop="dateUpdated">2019-06-14 17:34:15</time>
 </span><br>
 
 
